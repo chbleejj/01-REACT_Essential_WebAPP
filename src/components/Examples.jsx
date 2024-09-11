@@ -44,7 +44,7 @@ export default function Examples() {
         }
       >
         {!selectedTopic ? (
-          <p>Please select a topic.</p>
+          <p>Please select a topic for some examples.</p>
         ) : (
           <div id="tab-content">
             <h3>{EXAMPLES[selectedTopic].title}</h3>

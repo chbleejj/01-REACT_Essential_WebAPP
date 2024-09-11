@@ -10,7 +10,15 @@ function App() {
         <CoreConceptSection></CoreConceptSection>
         <Examples></Examples>
       </main>
-      <p>For more details</p>
+      <div id="contact">
+        <div>
+          For more details, please contact{" "}
+          <a href="mailto:chleebj@connect.ust.hk" id="email-link">
+            chleebj@connect.ust.hk
+          </a>
+        </div>
+        <div>Brian CH Lee, All rights reserved.</div>
+      </div>
     </>
   );
 }

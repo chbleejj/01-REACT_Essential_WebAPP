@@ -9,7 +9,7 @@ html {
   line-height: 1.5;
 
   color: #e7e0e7;
-  background: radial-gradient(#19062e, #20043d);
+  background: radial-gradient(#340c5e, #2f065a);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -83,4 +83,21 @@ main h2 {
 
 #tab-content code {
   font-size: 1rem;
+}
+
+#contact {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #a18aba;
+  font-weight: bold;
+}
+
+#email-link {
+  color: #a18aba;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#email-link:hover {
+  color: #7b00ff; 
 }
