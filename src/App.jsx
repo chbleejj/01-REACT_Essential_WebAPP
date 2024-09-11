@@ -10,6 +10,7 @@ function App() {
         <CoreConceptSection></CoreConceptSection>
         <Examples></Examples>
       </main>
+      <p>For more details</p>
     </>
   );
 }
