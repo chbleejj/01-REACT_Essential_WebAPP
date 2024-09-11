@@ -17,7 +17,7 @@ export default function Examples() {
         buttons={
           <>
             <TabButton
-              isSelected={selectedTopic === "components"}
+              isSelected={selectedTopic === "component"}
               onClick={() => handleSelect("components")}
             >
               Components
